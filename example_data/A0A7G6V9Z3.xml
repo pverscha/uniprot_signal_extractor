@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-02-10" modified="2023-09-13" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A7G6V9Z3</accession>
+  <name>A0A7G6V9Z3_9BURK</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">Extracellular serine protease</fullName>
+      <ecNumber evidence="4">3.4.21.-</ecNumber>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="ORF">SY91_06015</name>
+  </gene>
+  <organism evidence="4 5">
+    <name type="scientific">Burkholderia cenocepacia</name>
+    <dbReference type="NCBI Taxonomy" id="95486"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Burkholderiales</taxon>
+      <taxon>Burkholderiaceae</taxon>
+      <taxon>Burkholderia</taxon>
+      <taxon>Burkholderia cepacia complex</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4 5" key="1">
+    <citation type="submission" date="2018-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of a P-solubilizing bacteria Burkholderia cenocepacia PS27.</title>
+      <authorList>
+        <person name="Singh R.N."/>
+        <person name="Gaba S."/>
+        <person name="Kaushik R."/>
+        <person name="Saxena A.K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 5">PS27</strain>
+    </source>
+  </reference>
+  <dbReference type="EC" id="3.4.21.-" evidence="4"/>
+  <dbReference type="EMBL" id="CP060041">
+    <property type="protein sequence ID" value="QND98557.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A7G6V9Z3"/>
+  <dbReference type="Proteomes" id="UP000515462">
+    <property type="component" value="Chromosome 3"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008233">
+    <property type="term" value="F:peptidase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006508">
+    <property type="term" value="P:proteolysis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.144.10">
+    <property type="entry name" value="Phosphatidic acid phosphatase type 2/haloperoxidase"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR013425">
+    <property type="entry name" value="Autotrns_rpt"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036938">
+    <property type="entry name" value="P_Acid_Pase_2/haloperoxi_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000326">
+    <property type="entry name" value="P_Acid_Pase_2/haloperoxidase"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR02601">
+    <property type="entry name" value="autotrns_rpt"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01569">
+    <property type="entry name" value="PAP2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12951">
+    <property type="entry name" value="PATR"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00014">
+    <property type="entry name" value="acidPPc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF48317">
+    <property type="entry name" value="Acid phosphatase/Vanadium-dependent haloperoxidase"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51257">
+    <property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="4" id="KW-0378">Hydrolase</keyword>
+  <keyword evidence="4" id="KW-0645">Protease</keyword>
+  <keyword evidence="1 2" id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="22"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_5028936532" evidence="2">
+    <location>
+      <begin position="23"/>
+      <end position="653"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Phosphatidic acid phosphatase type 2/haloperoxidase" evidence="3">
+    <location>
+      <begin position="227"/>
+      <end position="343"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022729"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="SignalP"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="3">
+    <source>
+      <dbReference type="SMART" id="SM00014"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="QND98557.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000515462"/>
+    </source>
+  </evidence>
+  <sequence length="653" mass="66812" checksum="706F5981A44C8C4C" modified="2021-02-10" version="1">MFASRSRFPLHVAALSSAIVLAACGGGDDVTSTGTIAAAVPAPPADPGFVDSAPIPSAPAFVDNVATNQRGDARYATLSTNAAVRVLSRFLDLWQPATMLVDAGVTAPANGAFPAISPSTCSGLPNSGVPCGTILNDAVLSANVQYVINATTARTPQQADAAYYDDRRGKGYSVTDGMGPLTAAWRTAAQQTTSITSVPADATTVLYNDAGNNVGVGSSGGNAGFGKVVDLLNEMGNNASTEPSKRFFKYARPYRWSTSVIVAPTLVPAESTTPATDGGFISGHTAEAVRDATTMAWLVPERFQEMVSRGLELGENRILAGMHSPLDVIGGRMLALAVSAANLTAYAGDAQAAYTQAHQTLQQLTGTSATTFSAFAHSGTTATDRFADYTANKTAFLRRMTFGFGAIESTNAPPVVPKGAEILLQTRFPYLSADQRRVVLKTTELPSGYPVMDDAEGWGRLNLFAAADGYGAFNGNVIVSMDASQGGLNAADLWRNDVAGAGKLTLQGSGTLTLAGNNAYTGGTQVSGGTLAAASTTAFGKGDVYVGPGGSVRIAAAAPVTIANRYTQLDNTTLELDIDGNGGGRLRVGGPLTVAGGTLHVKFVNGYAPKAGDTIALIDGAAAAAKFATVTVDGFKATPVYTATGVSITLSAA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,9 @@
+{
+  "name": "uniprot_signal_extractor_js",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@types/sax": "^1.2.7",
+    "sax": "^1.3.0"
+  }
+}
